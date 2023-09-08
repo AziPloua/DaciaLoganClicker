@@ -1,0 +1,149 @@
+body{
+    background-repeat: no-repeat;
+    background: radial-gradient(circle, #003563, #0066e3)
+}
+
+
+
+
+#pozaLogan{
+    height: 200px;
+    width: 200px;
+    justify-content: center;
+    margin: 0 auto;
+    display: flex;
+    border-radius: 50%;
+   border: none;
+   transition-duration: 0.15s;
+   background: none;
+}
+#pozaLogan:hover{
+    cursor: pointer;
+    filter: brightness(90%);
+    scale: 1.1;
+}
+#pozaLogan:active{
+    filter: brightness(70%);
+    scale: 1.12
+}
+#scoreContainer{
+    height: 100%; /* Set the container height to 100% */
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    top: 25px;
+}
+#score{
+    font-size: 50px;
+    justify-content: center;
+    margin: 0 auto;
+    display: flex;
+    transition: font-size 0.3s ease; /* Add a transition for font-size */
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: absolute;
+    
+}
+.scaling-up {
+    transform: scale(1.2);
+}
+
+#loganuri{
+    font-size: 50px;
+    justify-content: center;
+    margin: 0 auto;
+    display: flex;
+    color: white;
+}
+
+
+#toggleMusic{
+    background-color: #9b2f00;
+    border-radius: 5px;
+    border: None;
+    height: 40px;
+    width: 120px;
+    color: antiquewhite;
+    margin: 0 auto;
+    display: flex;
+    transition-duration: 0.2s;
+    justify-content: center;
+    align-items: center;
+}
+#toggleMusic:hover{
+    cursor: pointer;
+    scale: 1.2;
+    background-color: #e24400;
+}
+
+
+.button-container {
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+    padding-left: 440px;
+    text-align: center;
+    padding-top: 60px;
+}
+
+.button-container button {
+text-align: center;
+display: inline-block;
+margin-left: 10px;  
+}
+
+#stopSong{
+    background-color: #9b2f00;
+    border-radius: 5px;
+    border: None;
+    height: 40px;
+    width: 120px;
+    color: antiquewhite;
+    margin: 0 auto;
+    display: flex;
+    transition-duration: 0.2s;
+    justify-content: center;
+    align-items: center;
+}
+#stopSong:hover{
+    cursor: pointer;
+    scale: 1.2;
+    background-color: #e24400;
+}
+
+#dacia1{
+    background-color: #9b2f00;
+    border-radius: 5px;
+    border: None;
+    justify-content: center;
+    align-items: center;
+    color: antiquewhite;
+    transition-duration: 0.2s;
+    position: absolute;
+    top: 0px;
+    left: 0%;
+    margin: 0 auto;
+    background: none;
+    scale: 0.6;
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: block;
+    height: 100px;
+    width: 100px;
+}
+#dacia1:hover{
+    cursor: pointer;
+    scale: 0.63;
+    filter: brightness(90%); 
+}
+#dacia1:active{
+    filter: brightness(70%);
+    scale: 0.65;
+}
+
+#dacia2{
+    display: flex;
+    align-items: center;
+    
+}
