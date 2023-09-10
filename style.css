@@ -1,32 +1,29 @@
-body{
+body {
     background-repeat: no-repeat;
-    background: radial-gradient(circle, #003563, #0066e3)
+    background: radial-gradient(circle, #003563, #0066e3);
 }
 
-
-
-
-#pozaLogan{
+#pozaLogan {
     height: 200px;
     width: 200px;
     justify-content: center;
     margin: 0 auto;
     display: flex;
     border-radius: 50%;
-   border: none;
-   transition-duration: 0.1s;
-   background: none;
+    border: none;
+    transition-duration: 0.1s;
+    background: none;
 }
-#pozaLogan:hover{
+#pozaLogan:hover {
     cursor: pointer;
     filter: brightness(90%);
     scale: 1.1;
 }
-#pozaLogan:active{
+#pozaLogan:active {
     filter: brightness(70%);
-    scale: 1.12
+    scale: 1.12;
 }
-#scoreContainer{
+#scoreContainer {
     height: 100%; /* Set the container height to 100% */
     display: flex;
     justify-content: center;
@@ -34,7 +31,7 @@ body{
     align-items: center;
     top: 25px;
 }
-#score{
+#score {
     font-size: 50px;
     justify-content: center;
     margin: 0 auto;
@@ -43,13 +40,12 @@ body{
     color: white;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     position: absolute;
-    
 }
 .scaling-up {
     transform: scale(1.2);
 }
 
-#loganuri{
+#loganuri {
     font-size: 50px;
     justify-content: center;
     margin: 0 auto;
@@ -57,8 +53,7 @@ body{
     color: white;
 }
 
-
-#toggleMusic{
+#toggleMusic {
     background-color: #9b2f00;
     border-radius: 5px;
     border: None;
@@ -71,12 +66,11 @@ body{
     justify-content: center;
     align-items: center;
 }
-#toggleMusic:hover{
+#toggleMusic:hover {
     cursor: pointer;
     scale: 1.2;
     background-color: #e24400;
 }
-
 
 .button-container {
     justify-content: center;
@@ -88,12 +82,12 @@ body{
 }
 
 .button-container button {
-text-align: center;
-display: inline-block;
-margin-left: 10px;  
+    text-align: center;
+    display: inline-block;
+    margin-left: 10px;
 }
 
-#stopSong{
+#stopSong {
     background-color: #9b2f00;
     border-radius: 5px;
     border: None;
@@ -106,13 +100,13 @@ margin-left: 10px;
     justify-content: center;
     align-items: center;
 }
-#stopSong:hover{
+#stopSong:hover {
     cursor: pointer;
     scale: 1.2;
     background-color: #e24400;
 }
 
-#dacia1{
+#dacia1 {
     background-color: #9b2f00;
     border-radius: 5px;
     border: None;
@@ -132,18 +126,17 @@ margin-left: 10px;
     height: 100px;
     width: 100px;
 }
-#dacia1:hover{
+#dacia1:hover {
     cursor: pointer;
     scale: 0.63;
-    filter: brightness(90%); 
+    filter: brightness(90%);
 }
-#dacia1:active{
+#dacia1:active {
     filter: brightness(70%);
     scale: 0.65;
 }
 
-#dacia2{
+#dacia2 {
     display: flex;
     align-items: center;
-    
 }
