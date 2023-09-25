@@ -1,29 +1,33 @@
-body {
+body{
     background-repeat: no-repeat;
     background: radial-gradient(circle, #003563, #0066e3);
+    
 }
 
-#pozaLogan {
+
+
+
+#pozaLogan{
     height: 200px;
     width: 200px;
     justify-content: center;
     margin: 0 auto;
     display: flex;
     border-radius: 50%;
-    border: none;
-    transition-duration: 0.1s;
-    background: none;
+   border: none;
+   transition-duration: 0.1s;
+   background: none;
 }
-#pozaLogan:hover {
+#pozaLogan:hover{
     cursor: pointer;
     filter: brightness(90%);
     scale: 1.1;
 }
-#pozaLogan:active {
+#pozaLogan:active{
     filter: brightness(70%);
-    scale: 1.12;
+    scale: 1.12
 }
-#scoreContainer {
+#scoreContainer{
     height: 100%; /* Set the container height to 100% */
     display: flex;
     justify-content: center;
@@ -31,7 +35,7 @@ body {
     align-items: center;
     top: 25px;
 }
-#score {
+#score{
     font-size: 50px;
     justify-content: center;
     margin: 0 auto;
@@ -40,12 +44,13 @@ body {
     color: white;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     position: absolute;
+    
 }
 .scaling-up {
     transform: scale(1.2);
 }
 
-#loganuri {
+#loganuri{
     font-size: 50px;
     justify-content: center;
     margin: 0 auto;
@@ -53,8 +58,9 @@ body {
     color: white;
 }
 
-#toggleMusic {
-    background-color: #9b2f00;
+
+#toggleMusic{
+    background-color: rgb(37, 150, 190);
     border-radius: 5px;
     border: None;
     height: 40px;
@@ -66,48 +72,34 @@ body {
     justify-content: center;
     align-items: center;
 }
-#toggleMusic:hover {
+#toggleMusic:hover{
     cursor: pointer;
     scale: 1.2;
-    background-color: #e24400;
+    background-color: #40b7eb;
 }
 
+
 .button-container {
-    justify-content: center;
-    align-items: center;
-    display: inline-flex;
-    padding-left: 440px;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    border: 2px solid rgb(0, 0, 0);
+    width: 1000px;
+    height: 100px;
+    margin: 100px auto; /* Center the container horizontally with margin:auto */
+    padding-left: 40px;
     text-align: center;
-    padding-top: 60px;
+    margin-bottom: 20px;
+    background-repeat: no-repeat;
+    background: radial-gradient(circle, #00138e, #00104a);
 }
 
 .button-container button {
-    text-align: center;
-    display: inline-block;
     margin-left: 10px;
 }
 
-#stopSong {
-    background-color: #9b2f00;
-    border-radius: 5px;
-    border: None;
-    height: 40px;
-    width: 120px;
-    color: antiquewhite;
-    margin: 0 auto;
-    display: flex;
-    transition-duration: 0.2s;
-    justify-content: center;
-    align-items: center;
-}
-#stopSong:hover {
-    cursor: pointer;
-    scale: 1.2;
-    background-color: #e24400;
-}
-
-#dacia1 {
-    background-color: #9b2f00;
+#dacia1{
+    background-color: rgb(37, 150, 190);
     border-radius: 5px;
     border: None;
     justify-content: center;
@@ -126,17 +118,89 @@ body {
     height: 100px;
     width: 100px;
 }
-#dacia1:hover {
+#dacia1:hover{
     cursor: pointer;
     scale: 0.63;
-    filter: brightness(90%);
+    filter: brightness(90%); 
 }
-#dacia1:active {
+#dacia1:active{
     filter: brightness(70%);
     scale: 0.65;
 }
 
-#dacia2 {
+#dacia2{
     display: flex;
     align-items: center;
+    
 }
+
+#resetDacii{
+background-color: rgb(168, 0, 0);
+    border-radius: 5px;
+    border: None;
+    height: 40px;
+    width: 120px;
+    color: antiquewhite;
+    margin: 0 auto;
+    display: flex;
+    transition-duration: 0.2s;
+    justify-content: center;
+    align-items: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#resetDacii:hover{
+    cursor: pointer;
+    scale: 1.2;
+    background-color: #dc0000;
+}
+
+#nextManea{
+    background-color: rgb(37, 150, 190);
+    border-radius: 5px;
+    border: None;
+    height: 40px;
+    width: 120px;
+    color: antiquewhite;
+    margin: 0 auto;
+    display: flex;
+    transition-duration: 0.2s;
+    justify-content: center;
+    align-items: center;
+}
+
+#nextManea:hover{
+    cursor: pointer;
+    scale: 1.2;
+    background-color: #40b7eb;
+}
+#nextManea:active {
+scale: 1.3;
+    background-color: #40b7eb;
+}
+
+#volumWarning{
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+#resetDaciiDiv{
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    border: 2px solid rgb(0, 0, 0);
+    width: 1045px;
+    height: 60px;
+    margin: 100px auto; /* Center the container horizontally with margin:auto */
+    
+    text-align: center;
+    margin-bottom: 20px;
+    background-repeat: no-repeat;
+    background: radial-gradient(circle, #00083d, #00104a);
+}
+
+#resetDacii:active {
+    scale: 1.3;
+        background-color: #40b7eb;
+    }

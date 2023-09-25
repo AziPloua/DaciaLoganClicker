@@ -1,9 +1,9 @@
-<!doctype html>
-<html lang="en">
+    <!DOCTYPE html>
+    <html lang="en">
     <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="style.css" />
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
         <title>Dacia Logan Clicker</title>
     </head>
     <body>
@@ -11,36 +11,44 @@
         <div id="scoreContainer">
             <p id="score">0</p>
         </div>
-
-        <br />
-        <br />
+        <div>
+            <p id="clicksPerSecond"><span>0</span> Dacii pe secunda</p>
+        </div>
+        
+        <br>
+        <br>
         <button id="pozaLogan">
-            <img
-                src="dacia-logan-renault-car-lada-largus-renault_2_-removebg-preview.png"
-            />
+            <img src="dacia-logan-renault-car-lada-largus-renault_2_-removebg-preview.png">
         </button>
         <div class="button-container">
-            <audio
-                id="sound"
-                src="onlymp3.to - Vitezomanu Gica Conduc Dacia Logan-hx7Fr6_v1gw-192k-1694019143.mp3"
-            ></audio>
-            <button id="toggleMusic">Mute Music</button>
-            <button id="resetDacii">Reseteaza Daciile</button>
+        
+        <audio id="sound" src="onlymp3.to - Vitezomanu Gica Conduc Dacia Logan-hx7Fr6_v1gw-192k-1694019143.mp3"></audio>
+        <audio id="sound2" src="onlymp3.to - NICOLAE GUTA imi iau Logan-nC9yCxwvX1c-192k-1694180393.mp3"></audio>
+        <audio id="sound3" src="onlymp3.to - eu merg cu dacia iar tu pe jos-nac8hcO_Ono-192k-1694800535.mp3"></audio>
+        <audio id="sound4" src="onlymp3.to - carlos x cavs CONDUC LOGAN bad boujee remix -pTlfJZv2YlU-192k-1694800140.mp3"></audio>
+        <audio id="sound5" src="onlymp3.to - Dacia Logan-tc5prhtpgGs-192k-1694800304.mp3"></audio>
+        <audio id="sound6" src="Ciprian Pricob - DACIA LOGAN (Official Video).mp3"></audio>
+        <audio id="sound7" src="onlymp3.to - The Dean Dacia Logan prod. Ketta -_CJlqfR4mgo-192k-1694800433.mp3"></audio>
 
-            <button id="stopSong">Opreste Maneaua</button>
-        </div>
-        <br />
-        <div id="dacia2">
-            <button id="dacia1" style="visibility: hidden">
-                <img src="peakpx-removebg-preview.png" />Tuneaza Dacia
-            </button>
-        </div>
-        <br />
+        <button id="toggleMusic">Mute Manea</button>
+        
+        <button id="nextManea">Next Manea</button>
+</div>
+<div id="resetDaciiDiv">
+<button id="resetDacii">Reseteaza Daciile</button>
+</div>
+<br>
+<div id="dacia2">
+    <button id='dacia1' style="visibility: hidden;" ><img src="peakpx-removebg-preview.png">Tuneaza Dacia</button>
+</div>
+    <br>
 
-        <br />
-        <h1>
-            Ai grija la volum, e cam tare nu stiu cum sa-l dau mai incet lmao
-        </h1>
+<br>
+<h1 id="volumWarning">Ai grija la volum, e cam tare nu stiu cum sa-l dau mai incet lmao</h1>
+
+
+
+
         <script src="index.js"></script>
     </body>
-</html>
+    </html>
