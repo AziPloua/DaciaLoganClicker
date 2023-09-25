@@ -5,7 +5,7 @@ const sound = document.getElementById("sound");
 
 
  document.getElementById("pozaLogan").onclick = function butonmare(){
-    count+=100;
+    count+=1;
    document.getElementById("score").innerHTML = count;
     count.toLocaleString("de-DE");
     const nrVirgula = count.toLocaleString();
